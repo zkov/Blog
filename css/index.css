@@ -1,0 +1,70 @@
+html, body {
+	font-family: 'Fjord One', serif;
+	height: 100%;
+	margin: 0;
+	position: relative;
+}
+
+html {
+  background: url(/../images/veggies_1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr {
+	width: 97%;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #a3a3a3; /* old IE */
+    background-color: #9d9a9a; /* Modern Browsers */
+}
+
+#left-panel{
+	/*background-color: rgb(33, 33, 33);*/
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+
+}
+#middle-panel {
+	background-color: rgba(207, 206, 198, 0.8);
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	/*-webkit-box-shadow: 0px 0px 8px 4px rgba(227, 226, 218, 0.8);
+	-moz-box-shadow: 0px 0px 8px 4px rgba(227, 226, 218, 0.8);
+	box-shadow: 0px 0px 8px 4px rgba(227, 226, 218, 0.8);*/
+}
+#right-panel{
+	/*background-color: rgb(33, 33, 33);*/
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+}
+
+#middle-panel div {
+	display: inline-block;
+	position: relative;
+}
+
+#middle-panel div input{
+	margin-right: 1em;
+}
+
+#middle-panel #login-panel, #register-panel	 {
+	margin: 1em 0 0 1em;
+}
+
+#middle-panel #get-reg{
+	position: relative;
+	float: right;
+}
+
+.blue {
+	color: rgb(33, 91, 152);
+}
